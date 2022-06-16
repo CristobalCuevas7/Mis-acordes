@@ -129,7 +129,7 @@ function showSongs(songs) {
         <div class="galeria-item">
           <img src="${songs.img}" alt="${songs.name}" width="200px" />
           <a href="song.html?id=${songs.id}">${songs.name}</a>
-          <a href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
+          <a class="songs__autor--name" href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
         </div>
       `;
     });
@@ -165,7 +165,7 @@ function showRock(songs) {
         <div class="galeria-item">
           <img src="${songs.img}" alt="${songs.name}" width="200px" />
           <a href="song.html?id=${songs.id}">${songs.name}</a>
-          <a href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
+          <a class="songs__autor--name" href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
         </div>
       `;
     });
@@ -201,7 +201,7 @@ function showPop(songs) {
         <div class="galeria-item">
           <img src="${songs.img}" alt="${songs.name}" width="200px" />
           <a href="song.html?id=${songs.id}">${songs.name}</a>
-          <a href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
+          <a class="songs__autor--name"  href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
         </div>
       `;
     });
@@ -236,7 +236,7 @@ function showIndie(songs) {
         <div class="galeria-item">
           <img src="${songs.img}" alt="${songs.name}" width="200px" />
           <a href="song.html?id=${songs.id}">${songs.name}</a>
-          <a href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
+          <a class="songs__autor--name" href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
         </div>
       `;
     });
@@ -270,7 +270,7 @@ function showReggaeton(songs) {
         <div class="galeria-item">
           <img src="${songs.img}" alt="${songs.name}" width="200px" />
           <a href="song.html?id=${songs.id}">${songs.name}</a>
-          <a href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
+          <a class="songs__autor--name" href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
         </div>
       `;
     });
@@ -304,7 +304,7 @@ function showFlamenco(songs) {
         <div class="galeria-item">
           <img src="${songs.img}" alt="${songs.name}" width="200px" />
           <a href="song.html?id=${songs.id}">${songs.name}</a>
-          <a href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
+          <a class="songs__autor--name" href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
         </div>
       `;
     });
@@ -338,7 +338,7 @@ function showRumba(songs) {
         <div class="galeria-item">
         <img src="${songs.img}" alt="${songs.name}" width="200px" />
         <a href="song.html?id=${songs.id}">${songs.name}</a>
-        <a href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
+        <a class="songs__autor--name" href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
       </div>
       `;
     });
@@ -371,7 +371,7 @@ function showTradicional(songs) {
         <div class="galeria-item">
         <img src="${songs.img}" alt="${songs.name}" width="200px" />
         <a href="song.html?id=${songs.id}">${songs.name}</a>
-        <a href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
+        <a class="songs__autor--name" href="art.html?id=${songs.autor_id}">(${songs.autor})</a>
       </div>
       `;
     });
