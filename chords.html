@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Acordes</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,600&display=swap" rel="stylesheet">
+    <!--Styles Heets  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="menu__responsive" id="menu">
+
+            <a class="menu__responsive--buttom" id="bt-menu" href="#"><span class="material-icons">reorder</span></a>
+            <a class="header__link " href="index.html">Mis Acordes</a>
+            <div class="menu__responsive--block">
+                <a class="menu__responsive--search" href="#"><span class="material-icons">search</span></a>
+
+                <a class="menu__responsive--login" id="user-icon" href="logIn.html"><span class="material-icons">person</span></a>
+            </div>
+
+
+        </div>
+        <nav id="nav" class="nav">
+
+            <!-- <a class="nav__link nav__link--active" href="chords.html">Acordes</a> -->
+            <a class="nav__link " href="songs.html">Canciones</a>
+            <a class="nav__link" href="arts.html">Artistas</a>
+            <a class="nav__link" href="us.html">Sobre Nosotros</a>
+
+
+        </nav>
+        <div class="search">
+            <div class="search__input">
+                <span class="material-symbols-outlined search__icon">
+                    search
+                    </span>
+                <input type="search" id="search" placeholder="Buscar..." />
+            </div>
+        </div>
+
+        <div class="users">
+            <div class="users__input">
+                <span class="material-icons">person</span>
+                <a class="users__link" id="user-name" href="logIn.html">Iniciar Sesión</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="container">
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div>
+                <p>Ⓒ 2022 Mis acordes
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Java Script Firebase -->
+    <script type="module" src="js/chords.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
